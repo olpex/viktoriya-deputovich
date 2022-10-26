@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #E2DF98;
+    margin: 0 auto;
+}
+
+.header_title h1 {
+    margin-top: 34px;
+    width: 500px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D42828;
+    padding: 10px;
+}
+
+.header {
+}
+.nav a{
+    margin-top: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a:hover {
+    color: white;
+}
+
+.section {
+    width: 1480px;
+    height: 765;
+}
+
+.fish1, .fish2, .fish3 {
+    width: 290px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 50px 45px 0px 100px;
+}
+
+.section_item1{
+    display: flex;
+}
+
+p{
+    margin-top: 50px;
+    width: 906px;
+    text-align: justify;
+    font-family: Arial;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+img:hover{
+    transform: rotate(20deg);
+}
